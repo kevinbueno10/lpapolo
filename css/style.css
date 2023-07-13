@@ -236,7 +236,8 @@ p#p2,p#p23 {
 	display: block;
 	padding: 15px;
 	min-width: 50px;
-	background-color: rgba(198, 198, 198, 1.0);
+	background-color: rgba(198, 198, 198, 0.2);
+	border-radius: 6px;
 }
 
 h1#titulocp {
