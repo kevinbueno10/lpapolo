@@ -96,6 +96,10 @@ p#p1 {
 	width: 90%;
 }
 
+p#pmob {
+	display: none;
+}
+
 p#p2,#p23 {
 	text-align: center;
 	margin: 0 auto;
@@ -175,10 +179,6 @@ p.p {
 }
 
 
-div#prio {
-	width: 25vw;
-}
-
 
 
 /* ----------  RESPONSIVO MOBILE ---------- */
@@ -236,7 +236,7 @@ p#p2,p#p23 {
 	display: block;
 	padding: 15px;
 	min-width: 50px;
-	background-color: rgba(198, 198, 198, 0.2);
+	background-color: #FAFAFA;
 	border-radius: 6px;
 }
 
@@ -244,7 +244,7 @@ h1#titulocp {
 	font-family: Montserrat;
 	font-size: 16pt;
 	text-align: center;
-	top: -430px;
+	top: -400px;
 	position: relative;
 	max-width: 400px;
 	margin: 0 auto;
@@ -271,26 +271,46 @@ h2.titulo {
 }
 
 h2#t1 {
-	width: 60%;
-	text-align: left;
+	width: 80%;
+	text-align: center;
 	padding-left: 15px;
 }
 
+h2#t3 {
+	font-size: 20pt;
+	width: 80%;
+}
 
 }
 
 @media screen and (max-width: 1195px) {
 	p#p1 {
-	max-width: 60%;
-	min-width: 50px;
+		display: none;
+	}
+
+
+	#b1 {
+	display: block;
+	position: relative;
+	top: -50px;
+	}
+
+	#b3 {
+		padding-bottom: -50px;
+	}
+
+	p#pmob {
+	min-width: 400px;
 	font-size: 11pt;
 	line-height: 22px;
 	box-sizing: border-box;
-	text-align: justify;
+	text-align: left;
 	margin: 0 auto;
 	display: block;
-	padding: 30px 15px 60px 15px;
+	padding: 40px 15px 70px 15px;
+	line-height: 30px;
 	}
+
 	img#painel {
 		margin: 0 auto;
 		display: block;
@@ -348,10 +368,11 @@ p#p2,p#p23 {
 	display: block;
 	padding: 15px;
 	min-width: 50px;
-	background-color: rgba(198, 198, 198, 0.2);
+	background-color: #FAFAFA;
 	border-radius: 6px;
 }
 
+/*
 p#p1 {
 	max-width: 90%;
 	font-size: 11pt;
@@ -362,18 +383,97 @@ p#p1 {
 	display: block;
 	padding: 30px 15px 60px 15px;
 	line-height: 30px;
-}
+} */
 
 h2.titulo {
 	font-size: 22pt;
 }
 
 h2#t1 {
-	width: 60%;
+	max-width: 500px;
 	text-align: left;
-	padding-left: 15px;
+	display: block;
+	margin: 0 auto;
 }
 
+h2#t3 {
+	font-size: 18pt;
+	width: 80%;
+}
+
+.modulos {
+	position: relative;
+	display: block;
+	top: -30px;
+}
+
+
+
+/* FORMULARIO  */
+
+			div.box {
+				margin-top: 40px;
+				max-width: 350px;
+				width: 100%;
+				min-width: 0px;
+				display: block;
+			}
+
+			label#title {
+			letter-spacing: 3px;
+			margin-bottom: 0px;
+			display: block;
+			font-family: candara;
+			}
+
+			label {
+				font-family: Montserrat;
+				font-size: 16pt;
+				padding: 20px;
+				width: 100%;
+				flex-wrap: wrap;
+				color: #fff;
+			}
+			label#priod {
+				font-size: 11pt;
+				color: #C9C9C9;
+				max-width: 80%;
+				display: block;
+				margin-top: -15px;
+			}
+			input {
+				margin-left: 20px;
+				width: 80%;
+				margin-top: 5px;
+				padding: 8px;
+				border-radius: 3px;
+				border: none;
+				color: red;
+			}
+			.input-box {
+				margin-top: 20px;
+			}
+			input#prio {
+				padding-top: 30px;
+			}
+			#nome,#telefone,#ramo,#luz,#city,#email,#prio,#priod::placeholder {
+				color: #C9C9C9;
+				font-family: Montserrat;
+				overflow-wrap: break-word;
+				letter-spacing: 2px;
+				text-align: top;
+			}
+			.the-button button {
+				margin: 20px;
+				padding: 15px;
+				background-color: #0BBD17;
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 14pt;
+				border-radius: 5px;
+				border: none;
+				outline: none;
+			}
 
 }
 
@@ -389,22 +489,10 @@ h2#t1 {
 	img#capai {
 		display: none;
 	}
-
-
-	.input-group {
-		flex-direction: line;
-		width: 50vw;
-		overflow-y: scroll;
-		max-height: 20rem;
-		flex: nowrap;
-		padding: 0px;
-		width: 60vw;
-	}
-	.input-box {
-		padding: 5px;
-		width: 50vw;
-		width: 400px;
-	}
+	#time {
+	position: relative;
+	margin-top: -30px;
+}
 
 	.container {
 	width: 100%;
@@ -453,9 +541,7 @@ h2.titulo {
 }
 
 h2#t1 {
-	width: 60%;
 	text-align: left;
-	padding-left: 15px;
 }
 
 
@@ -494,23 +580,12 @@ h2.titulo {
 	line-height: 30px;
 }
 
-div.cont2 {
-	height: 25vh;
-	display: block;
-}
-
-div#prio {
-	margin: 0 auto;
-	width: 100vw;
-}
 
 p.p {
 	text-align: left;
 }
 
 h2#t1 {
-	width: 60%;
-	text-align: left;
 	padding-left: 15px;
 }
 
@@ -524,70 +599,72 @@ h2#t1 {
 
 /*-------------- FORMULARIO --------------*/
 
-div.cont2 {
-	width: 50%;
-	margin: 0 auto;
-	height: 45vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-	padding: 80px;
-	font-family: Inter;
-	color: #051850;
-	background-color: #fff;
-	border-radius: 8px;
-	position: relative;
-	top: 50px;
-}
+.box {
+			min-width: 450px;
+			max-width: 800px;
+			background-image: linear-gradient(to top left, #2A47D4, #1B0085);
+			margin: 0 auto;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			margin-top: 40px;
+		}
 
-.form {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background-color: #fff;
-	padding: 3rem;
-}
+		label#title {
+			font-size: 18pt;
+			letter-spacing: 3px;
+			margin-bottom: 0px;
+			display: block;
+		}
 
-.input-group {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 1rem 0;
-}
+		label {
+				font-family: Montserrat;
+				font-size: 16pt;
+				padding: 20px;
+				width: 100%;
+				flex-wrap: wrap;
+				color: #fff;
+			}
+			label#priod {
+				font-size: 11pt;
+				color: #C9C9C9;
+				max-width: 80%;
+				display: block;
+				margin-top: -15px;
+			}
+			input {
+				margin-left: 20px;
+				width: 90%;
+				margin-top: 5px;
+				padding: 8px;
+				border-radius: 3px;
+				border: none;
+				color: red;
+			}
+			.input-box {
+				margin-top: 20px;
+			}
+			input#prio {
+				height: 60px;
+				width: 90%;
+			}
+			#nome,#telefone,#ramo,#luz,#city,#email,#prio,#priod::placeholder {
+				color: #3D477A;
+				font-family: Montserrat;
+				overflow-wrap: break-word;
+				letter-spacing: 2px;
+				outline: none;
+			}
 
-.input-box {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 1.1rem;
-	font-family: Montserrat;
-}
-
-.input-box input {
-	margin: 0.6rem 0;
-	padding: 0.8rem 1.2rem;
-	border: none;
-	border-radius: 8px;
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
-
-.input-box input:hover {
-	background-color: #eeeeee75;
-}
-
-.button button {
-	width: 100%;
-	border: none;
-	background-color: #08cf16;
-	padding: 0.62rem;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.button button a {
-	color: #fff;
-	text-decoration: none;
-	text-transform: bold;
-}
+			.the-button button {
+				margin: 30px 20px 20px 20px;
+				padding: 15px;
+				background-color: #0BBD17;
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 12pt;
+				border-radius: 5px;
+				border: none;
+				outline: none;
+				letter-spacing: 2px;
+			}
