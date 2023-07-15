@@ -414,7 +414,7 @@ h2#t3 {
 			div.box {
 				margin-top: 40px;
 				max-width: 350px;
-				width: 100%;
+				width: 95%;
 				min-width: 0px;
 				display: block;
 			}
@@ -437,7 +437,6 @@ h2#t3 {
 			label#priod {
 				font-size: 11pt;
 				color: #C9C9C9;
-				max-width: 80%;
 				display: block;
 				margin-top: -15px;
 			}
