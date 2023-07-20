@@ -6,6 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Apolo Representações</title>
+
+	<script>
+  		 var form = document.getElementById('planilha');
+ 		 form.addEventListener("submit", e => {
+  		  e.preventDefault();
+   		 fetch(form.action, {
+       		  method : "POST",
+      		  body: new FormData(document.getElementById("planilha")),
+   		  }).then(
+     		   response => response.json()
+   		 ).then((html) => {
+      		// you can put any JS code here
+     		 window.location.href = 'https://kevinbueno10.github.io/lpapolo/obrigado';
+    		});
+ 		 });
+	</script>
+	
 </head>
 <body>
 	<div id="logo">
@@ -92,7 +109,7 @@
 
 			<div class="box">
 
-					<form action="https://sheetdb.io/api/v1/03qxku7wkbxya" method="POST" name="PlanilhaLP" action="obrigado.html">
+					<form action="https://sheetdb.io/api/v1/03qxku7wkbxya" method="POST" name="PlanilhaLP" id="planilha">
 					<div class="input-group">
 
 								<label id="title"> <b>Solicite seu orçamento gratuitamente.</b> </label><br>
