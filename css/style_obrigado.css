@@ -187,9 +187,19 @@ span#contato {
 	height: 1000px;
 }
 
-span#insta,#whats,#email {
+span#insta {
 	min-width: 250px;
-	width: 250px;
+	width: 300px;
+}
+
+span#whats {
+	min-width: 250px;
+	width: 300px;
+}
+
+span#email {
+	min-width: 250px;
+	width: 300px;
 }
 
 }

@@ -604,7 +604,8 @@ p#p3 {
 p#p1 {
 	text-align: left;
 	max-width: 90%;
-	padding: 30px 15px 30px 15px;
+	padding: 30px 15px 10px 15px;
+	border: red solid 1px;
 }
 
 h2.titulo {
