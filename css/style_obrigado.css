@@ -190,16 +190,19 @@ span#contato {
 span#insta {
 	min-width: 250px;
 	max-width: 350px;
+	width: 380px;
 }
 
 span#whats {
 	min-width: 250px;
 	max-width: 350px;
+	width: 380px;
 }
 
 span#email {
 	min-width: 250px;
 	max-width: 350px;
+	width: 380px;
 	border-radius: red solid 1px;
 }
 
