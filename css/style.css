@@ -352,7 +352,7 @@ div#b12 img#banner {
 	text-align: left;
 	margin: 0 auto;
 	display: block;
-	padding: 40px 15px 70px 15px;
+	padding: 40px 15px 30px 15px;
 	line-height: 30px;
 	}
 
@@ -605,7 +605,6 @@ p#p1 {
 	text-align: left;
 	max-width: 90%;
 	padding: 30px 15px 10px 15px;
-	border: red solid 1px;
 }
 
 h2.titulo {
