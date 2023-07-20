@@ -460,12 +460,13 @@ h2#t3 {
 }
 
 p#cta {
-	font-size: 9pt;
+	font-size: 10pt;
 	display: block;
 	box-sizing: border-box;
 	max-width: 400px;
 	min-width: 200px;
 	text-align: justify;
+	padding: 10px;
 	line-height: 20px;
 }
 
