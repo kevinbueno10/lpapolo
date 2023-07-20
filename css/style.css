@@ -126,7 +126,18 @@ div#b12 img#painel {
 	max-width: 400px;
 	box-sizing: border-box;
 	border-radius: 8px;
+	display: none;
 }
+
+div#b12 img#banner {
+	max-width: 400px;
+	float: right;
+	display: block;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	margin-right: -300px;
+}
+
 
 #b2 {
 	top: 80px;
@@ -178,8 +189,36 @@ p.p {
 	flex: wrap;
 }
 
+div#cta {
+	background-color: #FAC230;
+	width: 100%;
+	display: block;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+p#cta {
+	width: 100%;
+	max-width: 900px;
+	min-width: 500px;
+	display: block;
+	margin-left: 30px;
+	font-family: Montserrat;
+	color: black;
+	text-align: center;
+	font-size: 12pt;
+	margin: 0 auto;
+	padding: 40px 20px 40px 20px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	line-height: 25px;
+}
 
 
+p#p12 {
+	margin-left: 20px;
+	max-width: 650px;
+}
 
 /* ----------  RESPONSIVO MOBILE ---------- */
 
@@ -280,6 +319,12 @@ h2#t3 {
 	font-size: 20pt;
 	width: 80%;
 }
+div#b12 img#banner {
+	float: none;
+	display: block;
+	max-width: 450px;
+	margin: 0 auto;
+}
 
 }
 
@@ -310,6 +355,18 @@ h2#t3 {
 	padding: 40px 15px 70px 15px;
 	line-height: 30px;
 	}
+
+	p#p12 {
+	min-width: 350px;
+	font-size: 11pt;
+	line-height: 22px;
+	box-sizing: border-box;
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	padding: 40px 15px 70px 15px;
+	line-height: 30px;
+}
 
 	img#painel {
 		margin: 0 auto;
@@ -357,6 +414,14 @@ p.p {
 	line-height: 30px;
 }
 
+
+div#b12 img#banner {
+	float: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 450px;
+}
+
 p#p2,p#p23 {
 	width: 350px;
 	max-width: 400px;
@@ -371,19 +436,6 @@ p#p2,p#p23 {
 	background-color: #FAFAFA;
 	border-radius: 6px;
 }
-
-/*
-p#p1 {
-	max-width: 90%;
-	font-size: 11pt;
-	line-height: 22px;
-	box-sizing: border-box;
-	text-align: left;
-	margin: 0 auto;
-	display: block;
-	padding: 30px 15px 60px 15px;
-	line-height: 30px;
-} */
 
 h2.titulo {
 	font-size: 22pt;
@@ -407,9 +459,23 @@ h2#t3 {
 	top: -30px;
 }
 
+p#cta {
+	font-size: 10pt;
+	display: block;
+	box-sizing: border-box;
+	max-width: 430px;
+	min-width: 200px;
+	text-align: justify;
+	line-height: 20px;
+}
+
 
 
 /* FORMULARIO  */
+
+			.input-group {
+				margin-left: -15px;
+			}
 
 			div.box {
 				margin-top: 40px;
@@ -434,7 +500,7 @@ h2#t3 {
 				flex-wrap: wrap;
 				color: #fff;
 			}
-			label#priod {
+			label.priod {
 				font-size: 11pt;
 				color: #C9C9C9;
 				display: block;
@@ -455,7 +521,7 @@ h2#t3 {
 			input#prio {
 				padding-top: 30px;
 			}
-			#nome,#telefone,#ramo,#luz,#city,#email,#prio,#priod::placeholder {
+			#nome,#telefone,#ramo,#luz,#city,#email,#prio,.priod::placeholder {
 				color: #C9C9C9;
 				font-family: Montserrat;
 				overflow-wrap: break-word;
@@ -479,6 +545,12 @@ h2#t3 {
 
 
 @media screen and (max-width: 1080px) {
+div#b12 img#banner {
+	float: none;
+	display: block;
+	max-width: 450px;
+	margin: 0 auto;
+}
 	img#capam {
 		display: block;
 		width: 100vw;
@@ -548,6 +620,12 @@ h2#t1 {
 
 
 @media screen and (max-width: 785px) {
+div#b12 img#banner {
+	float: none;
+	display: block;
+	max-width: 400px;
+	margin: 0 auto;
+}
 	img.icon {
 	width: 100%;
 	max-width: 70px;
@@ -590,10 +668,6 @@ h2#t1 {
 
 }
 
-@media screen and (max-width: 600px) {
-	div#b3 p.p {border: none}
-}
-
 
 
 /*-------------- FORMULARIO --------------*/
@@ -624,7 +698,7 @@ h2#t1 {
 				flex-wrap: wrap;
 				color: #fff;
 			}
-			label#priod {
+			label.priod {
 				font-size: 11pt;
 				color: #C9C9C9;
 				max-width: 80%;
@@ -647,7 +721,7 @@ h2#t1 {
 				height: 60px;
 				width: 90%;
 			}
-			#nome,#telefone,#ramo,#luz,#city,#email,#prio,#priod::placeholder {
+			#nome,#telefone,#ramo,#luz,#city,#email,#prio,.priod::placeholder {
 				color: #3D477A;
 				font-family: Montserrat;
 				overflow-wrap: break-word;
