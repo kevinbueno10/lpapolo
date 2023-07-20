@@ -333,6 +333,10 @@ div#b12 img#banner {
 		display: none;
 	}
 
+	img#capam {
+		width: 30%;
+	}
+
 
 	#b1 {
 	display: block;

@@ -191,19 +191,21 @@ span#insta {
 	min-width: 250px;
 	max-width: 350px;
 	width: 380px;
+	margin-left: -15px;
 }
 
 span#whats {
 	min-width: 250px;
 	max-width: 350px;
 	width: 380px;
+	margin-left: -15px;
 }
 
 span#email {
 	min-width: 250px;
 	max-width: 350px;
-	width: 380px;
-	border-radius: red solid 1px;
+	width: 350px;
+	margin-left: -15px;
 }
 
 }
