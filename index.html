@@ -8,12 +8,12 @@
 	<title>Apolo Representações</title>
 
 	<script>
-  		 var form = document.getElementById('sheetdb-form');
+  		 var form = document.getElementById('PlanilhaLP');
  		 form.addEventListener("submit", e => {
   		  e.preventDefault();
    		 fetch(form.action, {
        		  method : "POST",
-      		  body: new FormData(document.getElementById("sheetdb-form")),
+      		  body: new FormData(document.getElementById("PlanilhaLP")),
    		  }).then(
      		   response => response.json()
    		 ).then((html) => {
@@ -109,7 +109,7 @@
 
 			<div class="box">
 
-					<form action="https://sheetdb.io/api/v1/03qxku7wkbxya" method="POST" name="PlanilhaLP" id="sheetdb-form">
+					<form action="https://sheetdb.io/api/v1/03qxku7wkbxya" method="POST" name="PlanilhaLP" id="PlanilhaLP">
 					<div class="input-group">
 
 								<label id="title"> <b>Solicite seu orçamento gratuitamente.</b> </label><br>
