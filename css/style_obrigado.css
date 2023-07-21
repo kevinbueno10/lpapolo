@@ -141,8 +141,8 @@ img#logoi {
 
 div#header {
 	width: 100%;
-	height: 80px;
-	background-image: linear-gradient(to top right, black, black);
+	height: 70px;
+	background-image: linear-gradient(to bottom right, black, #040847);
 }
 
 h1 {
@@ -154,6 +154,8 @@ h1 {
 	top: 100px;
 	position: relative;
 	width: 80%;
+	display: block;
+	margin: 0 auto;
 }
 
 span#subt {
