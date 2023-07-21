@@ -464,14 +464,14 @@ h2#t3 {
 }
 
 p#cta {
-	font-size: 11pt;
+	font-size: 10pt;
 	display: block;
 	box-sizing: border-box;
 	max-width: 400px;
-	width: 380px;
+	width: 350px;
 	min-width: 200px;
 	text-align: left;
-	padding: 10px;
+	padding: 25px 15x 25px 15px;
 	line-height: 20px;
 }
 
