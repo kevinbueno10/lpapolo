@@ -6,23 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Apolo Representações</title>
-
-	<script>
-  		 var form = document.getElementById('PlanilhaLP');
- 		 form.addEventListener("submit", e => {
-  		  e.preventDefault();
-   		 fetch(form.action, {
-       		  method : "POST",
-      		  body: new FormData(document.getElementById("PlanilhaLP")),
-   		  }).then(
-     		   response => window.location.href = 'https://kevinbueno10.github.io/lpapolo/obrigado';
-   		 ).then((html) => {
-      		// you can put any JS code here
-     		 window.location.href = 'https://kevinbueno10.github.io/lpapolo/obrigado';
-    		});
- 		 });
-	</script>
-	
 </head>
 <body>
 	<div id="logo">
@@ -109,51 +92,50 @@
 
 			<div class="box">
 
-					<form action="https://sheetdb.io/api/v1/03qxku7wkbxya" method="POST" name="PlanilhaLP" id="PlanilhaLP">
+					<form action="https://api.sheetmonkey.io/form/ptmjZq5sT7TfGeg2Fe9WWw" method="POST" name="PlanilhaLP">
 					<div class="input-group">
 
 								<label id="title"> <b>Solicite seu orçamento gratuitamente.</b> </label><br>
 
 								<div class="input-box">
 									<label for="nome"> Nome </label><br>
-									<input id="nome" type="text" name="data[nome]" placeholder="Digite seu nome" required>
+									<input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
 								</div>
 
 								<div class="input-box">
 									<label for="telefone"> Telefone </label><br>
-									<input id="telefone" type="tel" name="data[telefone]" placeholder="(XX) XXXX-XXXX" required>
+									<input id="telefone" type="tel" name="telefone" placeholder="(XX) XXXX-XXXX" required>
 								</div>
 
 								<div class="input-box">
 									<label for="ramo"> Ramo<label style="font-size: 12pt; color: #C9C9C9; margin-left: -15px;">(se for empresa)</style></label><br>
-									<input id="ramo" type="text" name="data[ramo]" placeholder="Ramo da sua empresa">
+									<input id="ramo" type="text" name="ramo" placeholder="Ramo da sua empresa">
 								</div>
 
 								<div class="input-box">
 									<label for="luz"> Gasto médio mesal</label><br>
-									<input id="luz" type="text" name="data[gasto_mensal]" placeholder="R$ gasto com energia elétrica" required>
+									<input id="luz" type="text" name="gasto_mensal" placeholder="R$ gasto com energia elétrica" required>
 								</div>
 
 								<div class="input-box">
 									<label for="city"> Cidade</label><br>
-									<input id="city" type="text" name="data[cidade]" placeholder="Cidade(s) onde está situado" required>
+									<input id="city" type="text" name="cidade" placeholder="Cidade(s) onde está situado" required>
 								</div>
 
 								<div class="input-box">
 									<label for="email"> Email</label><br>
-									<input id="email" type="email" name="data[email]" placeholder="Digite seu email principal" required>
+									<input id="email" type="email" name="email" placeholder="Digite seu email principal" required>
 								</div>
 
 								<div class="input-box" id="prio">
 									<label for="prio"> Prioridade no projeto</label><br>
 									<label class="priod"> (Descreva o que você <b>prioriza</b> no projeto, seja melhor qualidade, preço, tempo de garantia... ou qualquer outra coisa)</label>
-									<input id="prio" type="text" name="data[prioridade]" placeholder="">
+									<input id="prio" type="text" name="prioridade" placeholder="">
 								</div>
 
 								<div class="the-button">
-								<a><button type="submit" name="submit">Solicitar Orçamento</button></a>
+								<button type="submit" name="submit"><a>Solicitar Orçamento</a></button>
 								</div>
-					</form>
 
 			</div>
 		</div>
