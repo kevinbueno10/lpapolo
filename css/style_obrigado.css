@@ -8,7 +8,7 @@
 	padding: 0;
 }
 
-@media screen and (min-width: 1920px) { height: 120px;}
+@media screen and (min-width: 1920px) { height: 120px; div#content { height: 1080px;} img#logoi {margin-top: -20px;}}
 
 #header {
 	width: 100%;
