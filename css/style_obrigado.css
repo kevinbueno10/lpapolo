@@ -12,7 +12,7 @@ body {
 	background-color:#040847;
 }
 
-@media screen and (min-width: 1920px) { header {height: 120px;} img#logoi {margin-top: -20px;}}
+@media screen and (min-width: 1920px) { header {height: 120px;} img#logoi {margin-top: -30px; display: block}}
 
 #header {
 	width: 100%;
