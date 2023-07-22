@@ -12,7 +12,9 @@ body {
 }
 
 @media screen and (min-width: 1920px) {
-	body { margin-top: -20px;}
+	body { margin-top: -25px;}
+	div#content { height: 1080px;}
+	header {height: 110px;}
 }
 
 img#logoi {
